@@ -1,0 +1,70 @@
+*{margin: 0; padding: 0}
+
+.wrapper, .content, .menu, body, html {
+	font-family: 'Bangers', cursive;
+	font-size: 16px;
+	height: 100%;
+}
+
+h1{
+	color: #121212;
+	font-size: 30px;
+	margin: 10px;
+}
+
+button {
+	font-family: 'Bangers', cursive;
+	background:#282e36 ;
+	color: #fff;
+	border: 1px solid #282e36;
+	padding: 8px;
+	border-radius: 6px;
+	margin: 10px;
+	outline: none;
+	width: 95px;
+}
+
+button:hover{
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+input[type=text], input[type=password]{
+	font-family: 'Bangers', cursive;
+	padding: 8px;
+	border: 1px solid #EEEFF2;
+	border-radius: 3px;
+	margin: 10px;
+	color: #818382;
+	width: 200px;
+	outline: none;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.content {
+	flex: 1;
+	background: #D3D1CE;
+}
+
+.block {
+	margin: 30px;
+	padding: 20px;
+	background: #D3D1CE;
+	border: 1px solid #EEEFF2;
+}
+
+.menu {
+	width: 200px;
+	background: #131418;
+}
+
+.menu a {
+	display: block;
+	color: #e3e8e6;
+	text-decoration: none;
+	padding: 15px;
+}
+
